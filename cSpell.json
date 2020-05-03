@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": [
+    "ESNEXT",
+    "Vasin",
+    "charlescrtr",
+    "downlevel",
+    "joshuarrr",
+    "meyerds",
+    "nondiv",
+    "sourcemap",
+    "tslib",
+    "typechecking"
+  ],
+  "ignorePaths": ["package-lock.json"]
+}
