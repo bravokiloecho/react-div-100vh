@@ -4,7 +4,7 @@
   "description": "A React hook that aims to solve '100vh' issue in mobile browsers",
   "license": "MIT",
   "scripts": {
-    "prettify": "prettier --loglevel error --single-quote --write *.{md,json}"
+    "prettify": "prettier --loglevel error --single-quote --write *.{md,json,ts,tsx}"
   },
   "peerDependencies": {
     "react": ">=16.8",
