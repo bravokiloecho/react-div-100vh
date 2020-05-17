@@ -1,33 +1,7 @@
 {
-  "name": "react-div-100vh",
-  "version": "0.4.0",
-  "description": "A React hook that aims to solve '100vh' issue in mobile browsers",
-  "license": "MIT",
+  "private": true,
+  "workspaces": ["library", "test"],
   "scripts": {
-    "prettify": "prettier --loglevel error --single-quote --write *.{md,json,ts,tsx}"
-  },
-  "peerDependencies": {
-    "react": ">=16.8"
-  },
-  "devDependencies": {
-    "@types/node": "^14.0.1",
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "ts-node": "^8.10.1",
-    "typescript": "^3.9.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettify"
-    }
-  },
-  "author": "Mikhail Vasin",
-  "homepage": "https://github.com/mvasin/react-div-100vh",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:mvasin/react-div-100vh.git"
-  },
-  "type": "module"
+    "build": "yarn workspaces run build"
+  }
 }

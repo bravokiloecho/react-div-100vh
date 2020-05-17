@@ -1,0 +1,23 @@
+{
+  "name": "react-div-100vh",
+  "version": "0.4.0",
+  "description": "Aiming to solve the '100vh' issue in mobile browsers",
+  "license": "MIT",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.js",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  },
+  "author": "Mikhail Vasin",
+  "homepage": "https://github.com/mvasin/react-div-100vh",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mvasin/react-div-100vh.git"
+  }
+}
